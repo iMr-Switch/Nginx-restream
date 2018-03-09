@@ -9,4 +9,5 @@ cd nginx-1.12.2/
 make
 make install
 /usr/local/nginx/sbin/nginx -s stop
+cd ..
 cp -r nginx.conf /usr/local/nginx/conf/
