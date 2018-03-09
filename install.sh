@@ -5,7 +5,7 @@ tar xzf nginx-1.12.2.tar.gz
 sudo apt-get install -y gcc
 sudo apt-get install -y libpcre3 libpcre3-dev build-essential libssl-dev
 cd nginx-1.12.2
-./configure --add-module=/root/nginx-rtmp-module
+./configure --add-module=/root/Nginx-restream/nginx-rtmp-module
 make
 make install
 /usr/local/nginx/sbin/nginx -s stop
