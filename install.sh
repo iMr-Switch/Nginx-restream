@@ -1,5 +1,5 @@
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 wget https://nginx.org/download/nginx-1.12.2.tar.gz
 tar xzf nginx-1.12.2.tar.gz
 sudo apt-get install -y gcc
